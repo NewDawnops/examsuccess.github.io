@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kurale&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url(C:\xampp\htdocs\fontawesome-free-6.5.2-web);
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+	height: 3700px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: raleway, agbalumo, pacifico, kurale;
+	background-color: transparent;
+	width: 1343px;
+	background-color: floralwhite;
+}
+
+.topmost{
+
+	background-color: transparent;
+	color: cadetblue;
+}
+
+.topmost h1{
+	
+	margin-left: 290px;
+	
+}
+
+.new{
+	background-repeat: no-repeat;
+	height: 648px;
+}
+
+.Headline-1{
+	height: 40px;
+	background-color: lightskyblue;
+	display: flex;
+	position: relative;
+	color: white;
+	justify-content: center;
+ 	align-content: center;
+}
+
+.H1-text h2{
+	width: 610px;
+	margin-top: 4px;
+}
+
+.button1 h2{
+	font-size: 12pt;
+ 	font-family: raleway;
+ 	letter-spacing: 1px;
+ 	font-weight: 500;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+input, button, textarea	{
+	border: none;
+	outline: none;
+}
+
+.button1 li h2 {
+	padding: 5px;
+	margin-right: 40px;
+	margin-top: -12px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	color: white;
+}
+
+.button1 li h2:hover{
+	background-color: #173086cc;
+	color: white;
+	box-shadow: 5px 10px 30px #173086cc;
+}
+
+.Headline-2{
+	height: 35px;
+	background-color: #173086cc;
+	display: flex;
+	color: white;
+	justify-content: center;
+ 	align-content: center;
+}
+
+.Headline-2 h2 {
+ 	font-size: 12pt;
+ 	font-family: agbalumo;
+ 	letter-spacing: 1px;
+ 	font-weight: 100;
+ 	margin: 4px;
+ }
+
+.Headline-3{
+	
+	height: 330px;
+	background-color: white;
+	display: flex;
+	color: white;
+	justify-content: center;
+ 	align-content: center;
+}
+
+.Headline-4{
+ 	width: 100%;
+ 	height: 40px;
+ 	box-sizing: border-box;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-top: -95px;
+ }
+
+.boxes-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.feature-box{
+	background-color: white;
+	width: 200px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 5px 10px 30px 35px rgba(0, 0, 0, 13);
+}
+
+.f-img{
+	width: 100%;
+	height: 70%;
+}
+
+.f-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.f-text{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: darkblue;
+}
+
+.marquee{
+	color: white;
+	background-color: whitesmoke;
+	color: black;
+}
+
+.marquee img{
+	margin-top: 5px;
+}
+
+
+footer {
+	width: 100%;
+	margin-top: 0px;
+	height: 50px;
+	text-align: center;
+	padding: 3px;
+	background-color: #173086cc;
+	color: white;
+	font-family: agbalumo;
+}
+
+
+.main{
+	padding-top: 10px;
+	width: 1300px;
+	height: 4170px;
+	margin-left: 20px;
+	background-color: white;
+	font-family: raleway, agbalumo, pacifico, kurale;
+}
+.body{
+
+	margin: 20px;
+	padding-top: 100px ;
+}
+
+
+.body img{
+	margin-left: 40px;
+}
