@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kurale&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url(C:\xampp\htdocs\fontawesome-free-6.5.2-web);
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
 body{
-	width: 1320px;
-	height: 1640px;
+	color: black;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: raleway, agbalumo, pacifico, kurale;
+	background-color: transparent;
+	width: 1343px;
 	background-color: floralwhite;
 }
 
-.main{
-	width: 1120px;
-	height: 1610px;
-	margin-top: 20px;
-	margin-left: 100px;
-	background-color: white;
-
+.new{
+	background-repeat: no-repeat;
+	height: 648px;
 }
 
 .Headline-1{
@@ -70,14 +72,77 @@ input, button, textarea	{
 	box-shadow: 5px 10px 30px #173086cc;
 }
 
-.head{
-	
+.Headline-2{
+	height: 35px;
+	background-color: #173086cc;
+	display: flex;
+	color: white;
+	justify-content: center;
+ 	align-content: center;
 }
 
-.head h1{
-	color: cadetblue;
-	width: 700px;
-	margin-left: 210px;
+.Headline-2 h2 {
+ 	font-size: 12pt;
+ 	font-family: agbalumo;
+ 	letter-spacing: 1px;
+ 	font-weight: 100;
+ 	margin: 4px;
+ }
+
+.Headline-3{
+	
+	height: 330px;
+	background-color: white;
+	display: flex;
+	color: white;
+	justify-content: center;
+ 	align-content: center;
+}
+
+.Headline-4{
+ 	width: 100%;
+ 	height: 40px;
+ 	box-sizing: border-box;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-top: -95px;
+ }
+
+.boxes-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.feature-box{
+	background-color: white;
+	width: 200px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 5px 10px 30px 35px rgba(0, 0, 0, 13);
+}
+
+.f-img{
+	width: 100%;
+	height: 70%;
+}
+
+.f-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.f-text{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: darkblue;
 }
 
 .marquee{
@@ -90,10 +155,33 @@ input, button, textarea	{
 	margin-top: 5px;
 }
 
-.body{
-	margin: 20px;
+
+footer {
+	width: 100%;
+	margin-top: 0px;
+	height: 50px;
+	text-align: center;
+	padding: 3px;
+	background-color: #173086cc;
+	color: white;
+	font-family: agbalumo;
 }
 
-.body img{
-	margin-left: 40px;
+
+.main{
+	margin-top: 3px;
+	width: 1300px;
+	height: 2600px;
+	margin-left: 20px;
+	background-color: white;
+	font-family: raleway, agbalumo, pacifico, kurale;
+}
+.body{
+
+	margin: 20px;
+	padding-top: 100px ;
+}
+
+p h2{
+	color: black;
 }
