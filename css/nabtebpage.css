@@ -12,7 +12,17 @@ body{
 	width: 1343px;
 	background-color: floralwhite;
 }
+.topmost{
 
+	background-color: transparent;
+	color: cadetblue;
+}
+
+.topmost h1{
+	
+	margin-left: 290px;
+	
+}
 .new{
 	background-repeat: no-repeat;
 	height: 648px;
