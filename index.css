@@ -2,21 +2,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 @import url(C:\xampp\htdocs\fontawesome-free-6.5.2-web);
 
+@media(max-width:600px){
+	body{
+		width: 420px;
+	}
+
+	#Part1{
+		width: 420px;
+	} 
+
+	.Headline-1{
+		width: 420px;
+		height: 80px;
+	}
+
+	.H1-text{
+		width: 244px;
+		font-size: 10pt;
+		height: 20px;
+		margin-top: 8px;
+		margin-left: 40px;
+	}
+
+	.H1-text h2{
+		font-size: 9pt;	
+	}
+
+	.button1{
+		width: 150px;
+		font-size: 10pt;
+		height: 20px;
+		margin-top: 4px;
+		margin-right: 20px;
+		margin-left: -30px;	
+	}
+
+	.button1 h2{
+		font-weight: bold;
+		width: 90px;
+		font-size: 9pt;
+	 	font-family: raleway;
+	}
+
+	.Headline-2{
+		background-color: #173086cc;
+		color: white;
+		display: flex;
+	 	align-content: center;
+	 	align-items: center;
+	}
+
+	.Headline-2 h2 {
+		margin-bottom: 20px;
+		width: 420px;
+	 	font-size: 9pt;
+	 	font-family: agbalumo;
+ 	}
+
+ 
+
+.boxes-container{
+	border: solid red;
+	width: 400px;
+ 	box-sizing: border-box;
+ 	
+ 	justify-content: center;
+ 	align-items: center;
+ 	
+	
+
+} 
+
+.feature-box{
+	background-color: white;
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 5px 10px 30px 35px rgba(0, 0, 0, 13);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
-	background-image: url(./img/students.jpeg);
-	background-repeat: no-repeat;
-	background-size: ;
 	margin: 3px;
 	box-sizing: border-box;
 	font-family: raleway, agbalumo, pacifico, kurale;
 	background-color: white;
-	height: 1790px;
+	height: 2000px;
 	width: 1347px;
 }
 
 #Part1{
 	height: 650px;
 } 
+
+.new{
+	background-repeat: no-repeat;
+	height: 648px;
+}
 
 .Headline-1{
 	height: 40px;
@@ -29,11 +160,13 @@ body{
 }
 
 .H1-text h2{
-	width: 610px;
+
+	width: 490px;
 	margin-top: 4px;
 }
 
 .button1 h2{
+	
 	font-size: 12pt;
  	font-family: raleway;
  	letter-spacing: 1px;
@@ -73,45 +206,32 @@ input, button, textarea	{
 }
 
 .Headline-2{
-	height: 35px;
+	height: 100px;
 	background-color: #173086cc;
-	display: flex;
 	color: white;
 	justify-content: center;
  	align-content: center;
+ 	align-items: center;
 }
 
 .Headline-2 h2 {
- 	font-size: 12pt;
+	width: 1310px;
+ 	font-size: 13.5pt;
  	font-family: agbalumo;
  	letter-spacing: 1px;
  	font-weight: 100;
- 	margin: 4px;
+ 	margin-left: 18.5px;
  }
 
-.Headline-3{
-	
-	height: 330px;
-	background-color: white;
-	display: flex;
-	color: white;
-	justify-content: center;
- 	align-content: center;
-}
 
-.Headline-4{
- 	width: 100%;
- 	height: 40px;
+.boxes-container{
+	width: 100%;
  	box-sizing: border-box;
  	display: flex;
  	justify-content: center;
  	align-items: center;
- 	margin-top: 440px;
- }
-
-.boxes-container{
+ 	margin-top: -670px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 } 
 
@@ -165,7 +285,8 @@ input, button, textarea	{
 	background-color: whitesmoke; 
 	height: 110px;
 	display: flex;
-	padding: 30px;
+	
+	margin-top: 80px;
 }
 
 .column-1{
